@@ -13,47 +13,6 @@ Flyway Migration
 Maven
 Lombok
 
-📁 Estructura del Proyecto
-src/main/java/com/forum/api/
-├── config/
-│   ├── SecurityConfigurations.java
-│   └── CorsConfig.java
-├── controller/
-│   ├── AutenticacionController.java
-│   └── TopicoController.java
-├── dto/
-│   ├── DatosRegistroTopico.java
-│   ├── DatosActualizarTopico.java
-│   ├── DatosListadoTopico.java
-│   ├── DatosDetalleTopico.java
-│   ├── DatosRespuestaTopico.java
-│   ├── DatosAutenticacion.java
-│   └── DatosJWTToken.java
-├── exception/
-│   └── GlobalExceptionHandler.java
-├── model/
-│   ├── Usuario.java
-│   ├── Topico.java
-│   ├── Curso.java
-│   ├── Respuesta.java
-│   └── StatusTopico.java
-├── repository/
-│   ├── TopicoRepository.java
-│   ├── UsuarioRepository.java
-│   ├── CursoRepository.java
-│   └── RespuestaRepository.java
-├── security/
-│   └── SecurityFilter.java
-├── service/
-│   ├── TokenService.java
-│   └── AutenticacionService.java
-└── ApiForumUltraApplication.java
-
-src/main/resources/
-├── application.properties
-└── db/migration/
-    ├── V1__create_tables.sql
-    └── V2__insert_initial_data.sql
 🛠️ Configuración Inicial
 1. Base de Datos MySQL
 Crear la base de datos en MySQL:
